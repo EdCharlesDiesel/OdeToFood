@@ -20,7 +20,6 @@ namespace OdeToFood.Data
                 new Restaurant {Id= 2, Name="The Grill", Location="Sandton Square", Cuisine = CuisineType.Mexican},
                 new Restaurant {Id= 3, Name="Hard Rock", Location="Johannesburg Sandton Center ", Cuisine = CuisineType.Italian},
                 new Restaurant {Id= 4, Name="The Beach Hotel", Location="Durban Kzn South Africa ", Cuisine = CuisineType.Indian}
-
             };
         }
         public IEnumerable<Restaurant> GetAll()
@@ -30,5 +29,4 @@ namespace OdeToFood.Data
                    select r;
         }
     }
-
 }
